@@ -12,7 +12,7 @@ export default function Navbar() {
 							<a
 								href=""
 								className="block font-medium text-sm navbar-items py-2 rounded-lg">
-								Plants
+								Home
 							</a>
 						</li>
 
@@ -20,9 +20,10 @@ export default function Navbar() {
 							<a
 								href=""
 								className="block font-medium text-sm navbar-items py-2 rounded-lg">
-								Price
+								Plants
 							</a>
 						</li>
+
 
 						<li>
 							<a
