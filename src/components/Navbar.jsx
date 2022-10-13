@@ -10,7 +10,7 @@ export default function Navbar() {
 					<ul className="sm:flex flex-row items-center gap-x-14 hidden">
 						<li>
 							<a
-								href=""
+								href="/"
 								className="block font-medium text-sm navbar-items py-2 rounded-lg">
 								Home
 							</a>
@@ -18,7 +18,7 @@ export default function Navbar() {
 
 						<li>
 							<a
-								href=""
+								href="/plants"
 								className="block font-medium text-sm navbar-items py-2 rounded-lg">
 								Plants
 							</a>
