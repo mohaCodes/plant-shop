@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Navbar() {
 	return (
-		<nav className="px-2 sm:px-10 py-4 rounded border">
+		<nav className="px-2 sm:px-10 py-4 rounded">
 			<div className="container flex flex-wrap justify-between items-center mx-auto">
 				<h1 className="font-bold sm:text-3xl">Plant Shop</h1>
 

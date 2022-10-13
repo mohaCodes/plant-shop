@@ -8,7 +8,7 @@
 	}
 
 	body {
-		@apply overflow-x-hidden w-screen max-h-full bg-salmon-pink text-gray-900;
+		@apply overflow-x-hidden w-screen max-h-full bg-salmon-pink text-[#091B11];
 	}
 }
 
