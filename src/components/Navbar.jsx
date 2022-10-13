@@ -4,7 +4,7 @@ export default function Navbar() {
 	return (
 		<nav className="px-2 sm:px-10 py-4 rounded">
 			<div className="container flex flex-wrap justify-between items-center mx-auto">
-				<h1 className="font-bold sm:text-3xl">Plant Shop</h1>
+				<h1 className="font-bold sm:text-4xl">Plant Shop</h1>
 
 				<div className="flex flex-row  items-center sm:gap-x-14 gap-x-2">
 					<ul className="sm:flex flex-row items-center gap-x-14 hidden">

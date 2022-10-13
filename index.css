@@ -9,6 +9,7 @@
 
 	body {
 		@apply overflow-x-hidden w-screen max-h-full bg-salmon-pink text-[#091B11];
+		
 	}
 }
 
@@ -17,3 +18,23 @@
 		@apply hover:text-gray-500 duration-100;
 	}
 }
+
+
+::-webkit-scrollbar {
+	width: 16px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #dbc6b2;
+	border-radius: 20px;
+	border: 6px solid transparent;
+	background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: #c9b6a3;
+  }
