@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Navbar() {
+export default function Navbar(props) {
 	return (
 		<nav className="px-2 sm:px-10 py-4 rounded">
 			<div className="container flex flex-wrap justify-between items-center mx-auto">
@@ -24,7 +24,6 @@ export default function Navbar() {
 							</a>
 						</li>
 
-
 						<li>
 							<a
 								href=""
@@ -44,7 +43,9 @@ export default function Navbar() {
 
 					<span className="material-symbols-rounded cursor-pointer navbar-items rounded-full">
 						shopping_bag
-						<p className="inline-block align-bottom ml-1"></p>
+						<p className="inline-block align-bottom ml-1">
+							{props.itemsInCart}
+						</p>
 					</span>
 				</div>
 			</div>
