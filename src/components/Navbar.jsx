@@ -44,6 +44,7 @@ export default function Navbar() {
 
 					<span className="material-symbols-rounded cursor-pointer navbar-items rounded-full">
 						shopping_bag
+						<p className="inline-block align-bottom ml-1"></p>
 					</span>
 				</div>
 			</div>
