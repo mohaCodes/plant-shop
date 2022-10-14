@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Plant(props) {
 	return (
-		<div className="max-w-xs  bg-gray-50 rounded-lg shadow-md flex flex-col">
+		<div className="max-w-xs  bg-gray-50 rounded-lg shadow-sm flex flex-col">
 			<img
 				className="rounded-t-lg w-full h-96 cursor-pointer"
 				src={props.item.plantImage}
@@ -20,11 +20,11 @@ export default function Plant(props) {
 					elit, sed do eiusmod tempor incididunt ut labore et
 					dolore magna aliqua.
 				</p>
-				<a
-					href="#"
-					className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-600 rounded-lg">
+				<button
+					onClick={props.handleClick}
+					className="inline-flex onButtonHover items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-600 rounded-lg">
 					${props.item.price} - Add to Cart
-				</a>
+				</button>
 			</div>
 		</div>
 	)
